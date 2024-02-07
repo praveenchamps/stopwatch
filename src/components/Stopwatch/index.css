@@ -1,0 +1,92 @@
+/* Write CSS here */
+.stop-watch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .stop-watch {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    height: 100vh;
+    background-size: cover;
+  }
+}
+.heading {
+  text-align: center;
+  font-family: roboto;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333333;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+}
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  background-color: #ffffff;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .timer {
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+}
+.image-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.image {
+  height: 40px;
+  width: 40px;
+}
+.head {
+  font-family: roboto;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333333;
+}
+.para {
+  font-family: roboto;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333333;
+}
+.button {
+  font-family: roboto;
+  font-size: 9px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #1db05f;
+  border: 0px solid #1db05f;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 4px;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+}
+.red {
+  background-color: #ef0d36;
+}
+.orange {
+  background-color: #eaa800;
+}
